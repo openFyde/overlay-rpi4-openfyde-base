@@ -21,7 +21,7 @@ disable_overscan=1
 dtparam=audio=on
 cma_lwm=16
 cma_hwm=32
-gpu_mem=256
+gpu_mem=64
 
 # Display mode
 # Defaulting to "kms" mode for better graphics performance, it
@@ -31,7 +31,7 @@ gpu_mem=256
 # GUI graphics not being able to render properly, you can
 # toggle the display mode to "fkms" to enable a compatibility
 # mode, by commenting/uncommenting the corresponding lines.
-dtoverlay=vc4-kms-v3d-pi4
+dtoverlay=vc4-kms-v3d-pi4,cma-512
 #dtoverlay=vc4-fkms-v3d
 
 # for more power
