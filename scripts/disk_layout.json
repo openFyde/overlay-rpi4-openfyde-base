@@ -29,10 +29,10 @@
     ],
     "usb":[
       {
-        # Slot B rootfs, unused on USB, but pad to 2M.
-        # installation will expand this to size from base.
+        # ~~Slot B rootfs, unused on USB, but pad to 2M.~~
+        # ~~installation will expand this to size from base.~~
         "num": 5,
-        "size": "2 MiB"
+        "size": "2724 MiB"
       },
       {
         "num": 3,
