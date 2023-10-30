@@ -33,6 +33,8 @@ gpu_mem=64
 # mode, by commenting/uncommenting the corresponding lines.
 dtoverlay=vc4-kms-v3d-pi4,cma-512
 #dtoverlay=vc4-fkms-v3d
+display_auto_detect=1
+disable_fw_kms_setup=1
 
 # for more power
 #force_turbo=1
@@ -61,3 +63,4 @@ arm_boost=1
 #dtoverlay=imx519
 #dtoverlay=ov5647
 #dtoverlay=ov9281
+camera_auto_detect=1
