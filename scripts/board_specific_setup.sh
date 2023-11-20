@@ -59,7 +59,7 @@ install_raspberrypi_bootloader() {
     sudo cp ${ROOT}/usr/src/linux/arch/arm64/boot/dts/broadcom/*.dtb "${efi_dir}/"
     sudo cp -r ${ROOT}/usr/src/linux/arch/arm64/boot/dts/overlays "${efi_dir}/"
   fi
-  gzip -9 -c ${kernel_img} | sudo tee ${target_img}
+  gzip -9 -c ${kernel_img} | sudo tee ${target_img} > /dev/null
   sudo umount "${efi_dir}"
   rmdir "${efi_dir}"
 }
