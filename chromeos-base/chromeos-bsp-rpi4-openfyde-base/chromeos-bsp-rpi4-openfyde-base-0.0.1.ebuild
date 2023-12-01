@@ -16,7 +16,6 @@ RDEPEND="
     chromeos-base/device-appid
     chromeos-base/bluetooth-input-fix
     chromeos-base/raspberry-bootloader-update
-    chromeos-base/workaround-start-ui-after-vc4-inited
 "
 
 DEPEND="${RDEPEND}"
