@@ -12,7 +12,6 @@ KEYWORDS="*"
 IUSE=""
 
 RDEPEND="
-    media-libs/vulkan-loader
     chromeos-base/device-appid
     chromeos-base/bluetooth-input-fix
     chromeos-base/raspberry-bootloader-update
